@@ -12,26 +12,25 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME","PRADHAN474")
+OWNER_USERNAME = getenv("OWNER_USERNAME","Taha_khan_op")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "oxgenxBot")
+BOT_USERNAME = getenv("BOT_USERNAME","Sidramusicbot")
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME" , "𝐎𝐗𝐘𝐆𝐄𝐍 𝐗 𝐁𝐎𝐓")
+BOT_NAME = getenv("BOT_NAME" , "Sɪᴅʀᴀ x Mᴜsɪᴄ")
 #get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME" , "Blossom_xmusic_bot_assitant")
-EVALOP = list(map(int, getenv("EVALOP", "5059737154").split()))
+ASSUSERNAME = getenv("ASSUSERNAME" , "Blo")
+EVALOP = list(map(int, getenv("EVALOP","6934095003").split()))
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
-
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000)
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID", -1001437104456))
 
 # ------------------------------------------------
 GPT_API = getenv("GPT_API")
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 5059737154))
+OWNER_ID = int(getenv("OWNER_ID",6934095003))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -41,15 +40,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/PRADHAN474/OXYGEN",
+    "https://github.com/Tahakhanop786/SIDRA-X-MANAGER",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/OXEGN")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/BWANDARLOK")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/indianlok")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/indianlok")
 
 
 # Maximum Limit Allowed for users to save playlists on bot's server
