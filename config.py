@@ -14,18 +14,18 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @
 OWNER_USERNAME = getenv("OWNER_USERNAME", "Taha_khan_op")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME", "Sidramusicbot")
+BOT_USERNAME = getenv("BOT_USERNAME", "sidraXbot")
 # Don't Add style font
 BOT_NAME = getenv("BOT_NAME", "Sɪᴅʀᴀ x Mᴜsɪᴄ")
 # get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME", "Blo")
+ASSUSERNAME = getenv("ASSUSERNAME", "Assistant_of_sidra")
 EVALOP = list(map(int, getenv("EVALOP", "6934095003").split()))
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1001437104456))
+LOGGER_ID = int(getenv("LOGGER_ID", --1002130690281))
 
 # ------------------------------------------------
 GPT_API = getenv("GPT_API")
@@ -47,7 +47,7 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/indianlok")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/sidra_support")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/indianlok")
 
 # Maximum Limit Allowed for users to save playlists on bot's server
