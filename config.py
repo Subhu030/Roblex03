@@ -12,13 +12,13 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @
-OWNER_USERNAME = getenv("OWNER_USERNAME", "Taha_khan_op")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "ROBLEX_1947")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME", "sidraXbot")
+BOT_USERNAME = getenv("BOT_USERNAME", "ROBLEXXbot")
 # Don't Add style font
-BOT_NAME = getenv("BOT_NAME", "Sɪᴅʀᴀ x Mᴜsɪᴄ")
+BOT_NAME = getenv("BOT_NAME", "Roblex x Mᴜsɪᴄ")
 # get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME", "Assistant_of_sidra")
+ASSUSERNAME = getenv("ASSUSERNAME", "Assistant_of_Roblex")
 EVALOP = list(map(int, getenv("EVALOP", "6934095003").split()))
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -40,15 +40,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Tahakhanop786/SIDRA-X-MANAGER",
+    "https://github.com/Subhu030/Roblex03",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/sidra_support")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/indianlok")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Monster_Mod_Apk")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Monster_Chat_03")
 
 # Maximum Limit Allowed for users to save playlists on bot's server
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "3000"))
